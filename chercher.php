@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DOW</title>
+	<link rel="stylesheet" type="text/css" href="projet.css">
+</head>
+<body>
+	<header>
+		<h1>DOW</h1>
+		<nav>
+			<ul>
+				<li><a href="declarer.php">Déclarer un problème</a></li>
+				<li><a href="eclairer.php">Eclairer une rue</a></li>
+				<li><a href="chercher.php">Chercher un problème</a></li>
+			</ul>
+		</nav>
+		<a href="agent.php"><button class="agent-btn" src="agent.php">Agent/Responsable</button></a>
+	</header>
+	
+	<main>
+		<section>
+			<h2>Chercher un problème</h2>
+			<form action="#" method="get" class="search-form">
+                <input type="text" name="search" placeholder="la rue, le quartier, l’état du problème...">
+                <button type="submit">Chercher</button>
+            </form> 
+		</section>
+	</main>
+</body>
+</html>

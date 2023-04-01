@@ -1,8 +1,3 @@
-<?php
-  require_once("p.php");
-  require_once("user.php");
-  session_start();
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,7 +6,7 @@
 </head>
 <body>
 	<header>
-		<h1>DOW</h1>
+    <h1><a href="main.php">DOW</a></h1>
 		<nav>
 			<ul>
 				<li><a href="declarer.php">Déclarer un problème</a></li>

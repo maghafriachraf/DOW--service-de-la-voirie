@@ -6,7 +6,7 @@
 </head>
 <body>
 	<header>
-		<h1>DOW</h1>
+    <h1><a href="main.php">DOW</a></h1>
 		<nav>
 			<ul>
 				<li><a href="declarer.php">Déclarer un problème</a></li>

@@ -24,7 +24,7 @@ function getLieu($connection, $nom_rue, $num_rue){
     $row = $statement->fetch(PDO::FETCH_ASSOC);
     $idlieu = $row['idlieu'];
     return $idlieu;
-  }
+  } 
 
   
 
